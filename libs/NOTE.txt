@@ -1,0 +1,3 @@
+in library Adafruit_BME280.h  at line 
+#define BME280_ADDRESS (0x77) should be used real ID, 
+this ID is individual for every sensor. You can find out what ID used by your sensor by I2C Scanner also included in /libs folder
